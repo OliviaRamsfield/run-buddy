@@ -277,12 +277,12 @@ section {
     color: #fce138;
 }
 
-.map {
-    width: 350px;
-    height: 350px;
+#map {
+    width: 400px;
+    height: 400px;
     float: left;
-    margin-left: 200px;
-    margin-right: auto;
+    left: auto;
+
 }
 
 .questions {
