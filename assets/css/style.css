@@ -1,5 +1,4 @@
 /* remove browser-enforced styles, applies to whole page */
-
 * {
     margin: 0;
     padding: 0;
@@ -7,14 +6,12 @@
 }
 
 /* apply styles to the body, parent element */
-
 body {
     color: #39a6b2;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* apply styles to <header> */
-
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -24,7 +21,6 @@ header {
 }
 
 /* apply styles to header h1 */
-
 header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -33,7 +29,6 @@ header h1 {
 }
 
 /* apply styles to header a */
-
 header a {
     text-decoration: none;
     color: #fce138;
@@ -56,15 +51,13 @@ header nav ul {
 }
 
 /* apply styles to header nav a */
-
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
 
 /* apply style to footer */
-
 footer {
     background: #fce138;
     width: 100%;
@@ -75,7 +68,6 @@ footer {
 }
 
 /*apply style to footer h2 */
-
 footer h2 {
     color: #024e76;
     font-size: 30px;
@@ -83,26 +75,22 @@ footer h2 {
 }
 
 /* apply style to footer div */
-
 footer div {
     line-height: 1.5;
     text-align: right;
 }
 
 /* apply style to footer a */
-
 footer a {
     color: #024e76;
 }
 
 /* apply style to all section */
-
 section {
     padding: 60px;
 }
 
 /* apply style to hero */
-
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -110,17 +98,17 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 /* apply style to hero call to action (CTA) */
-
 .hero-cta {
     width: 35%;
     text-align: right;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -130,7 +118,6 @@ section {
 }
 
 /* apply style to the hero form */
-
 .hero-form {
     background-color: #fce138;
     color: #024e76;
@@ -172,7 +159,6 @@ section {
 }
 
 /* apply styles to steps 1-4 */
-
 .intro p {
     line-height: 1.7;
     color:#39a6b2;
@@ -195,7 +181,7 @@ section {
 }
 
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color:#024e76;
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -300,7 +286,6 @@ section {
 }
 
 /* add styles to reach out section */
-
 .contact {
     background-color: #024e76;
 }
@@ -377,3 +362,20 @@ section {
     display: flex;
 }
 /* utility styles end */
+
+/* media queries start */
+/* media query for smaller desktop screens and smaller */
+@media screen and (max-width: 900px) {
+        /* this will be applied on any screen smaller than 900 px */
+}
+
+/* media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+        /* this will be applies on any screen between 768px and 575px */
+        
+}
+
+/* media query for mobile phones and smaller */
+@media screen and (max-width: 575px) {
+        /* this will be applied to any screen smaller than 575px */
+}
