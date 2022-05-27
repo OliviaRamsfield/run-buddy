@@ -218,7 +218,7 @@ section {
     width: 80%;
     border-bottom: 1px solid #39a6b2;
     display: flex;
-    felx-wrap: wrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -348,7 +348,7 @@ section {
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color: #024e76
+    color: #024e76;
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
