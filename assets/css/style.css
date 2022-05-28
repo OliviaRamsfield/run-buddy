@@ -296,15 +296,16 @@ section {
 
 #map {
     height: 400px;
+    width: 400px;
 
 }
 
 .questions {
-    margin: 20px 0;
-    color:  white; 
+    margin: 20px 0; 
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
+    color:  white;
 }
 
 .contact h3 {
@@ -334,9 +335,13 @@ section {
     padding: 7px 15px;
     font-size: 16px;
     color: #024e76;
-    width: 100%;
+    width: 175%;
     margin-bottom: 15px;
     margin-top: 5px;
+}
+
+#contact-label {
+    color: white;
 }
 
 .contact-form button {
